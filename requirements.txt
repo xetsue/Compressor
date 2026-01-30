@@ -1,0 +1,4 @@
+# No external Python dependencies are required for this script.
+# It relies on standard libraries (os, sys, subprocess, etc.).
+# FFmpeg binaries are required but are external programs, not pip packages.
+# Why does this exist then — you ask? Because it can.
