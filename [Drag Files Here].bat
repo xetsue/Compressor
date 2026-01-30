@@ -13,7 +13,8 @@ if exist "requirements.txt" (
     pip install -r requirements.txt >nul 2>&1
 )
 
-python "desk_comps.py" -d "%~1"
+python "comps.py" -d "%~1"
 
 deactivate
+
 pause
